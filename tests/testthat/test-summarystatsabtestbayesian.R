@@ -8,7 +8,7 @@ options$n2 <- 27
 options$numSamples <- 100
 options$setSeed <- TRUE
 options$group1Successes <- 5
-options$y2 <- 10
+options$group2Successes <- 10
 set.seed(1)
 results <- jaspTools::runAnalysis("SummaryStatsABTestBayesian", "", options)
 

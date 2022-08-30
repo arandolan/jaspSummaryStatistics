@@ -22,7 +22,7 @@ SummaryStatsABTestBayesian <- function(jaspResults, dataset = NULL, options) {
   
   ### READ DATA                ###
   if (ready)
-    dataset <- list(y1 = options$group1Successes, n1 = options$group1SampleSize, y2 = options$y2, n2 = options$n2)
+    dataset <- list(y1 = options$group1Successes, n1 = options$group1SampleSize, y2 = options$group2Successes, n2 = options$n2)
   
   jaspFrequencies::.abTestMain(jaspResults, dataset, options, ready)
 }
