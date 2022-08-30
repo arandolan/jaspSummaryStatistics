@@ -196,7 +196,7 @@ Form
 					{
 						id				: sigmaLower
 						label			: qsTr("lower:")
-						name			: "sigma_stepsize_lower"
+						name			: "sdStepsizeLower"
 						defaultValue	: 0.1
 						max				: sigmaUpper.value
 						negativeValues	: false
@@ -206,7 +206,7 @@ Form
 					{
 						id				: sigmaUpper
 						label			: qsTr("upper:")
-						name			: "sigma_stepsize_upper"
+						name			: "sdStepsizeUpper"
 						defaultValue	: 1.0
 						min				: sigmaLower.value
 						negativeValues	: false

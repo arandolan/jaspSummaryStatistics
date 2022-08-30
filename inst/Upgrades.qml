@@ -45,22 +45,24 @@ Upgrade
         fromVersion:		"0.16.3"
         toVersion:			"0.16.4"
 
-        ChangeRename { from: "y1";                  to: "group1Successes"  }
-        ChangeRename { from: "n1";                  to: "group1SampleSize"  }
-        ChangeRename { from: "y2";                  to: "group2Successes"  }
-        ChangeRename { from: "n2";                  to: "group2SampleSize"  }
-        ChangeRename { from: "normal_mu";           to: "normal_mean"  }
-        ChangeRename { from: "normal_sigma";        to: "normal_sd"  }
-        ChangeRename { from: "plotRobustness";      to: "plotBayesFactorRobustness"  }
-        ChangeRename { from: "orEqualTo1Prob";      to: "logOddsRatioEqualTo0"  }
-        ChangeRename { from: "orGreaterThan1Prob";  to: "logOddsRatioGreaterThan0"  }
-        ChangeRename { from: "orLessThan1Prob";     to: "logOddsRatioLessThan0"  }
-        ChangeRename { from: "orNotEqualTo1Prob";   to: "logOddsRatioNotEqualTo0"  }
-        ChangeRename { from: "numSamples";          to: "samples"  }
-        ChangeRename { from: "mu_stepsize";         to: "meanStepsize"  }
-        ChangeRename { from: "sigma_stepsize";      to: "sdStepsize"  }
-        ChangeRename { from: "mu_stepsize_lower";   to: "meanStepsizeLower"  }
-        ChangeRename { from: "mu_stepsize_upper";   to: "meanStepsizeUpper"  }
+        ChangeRename { from: "y1";                      to: "group1Successes"  }
+        ChangeRename { from: "n1";                      to: "group1SampleSize"  }
+        ChangeRename { from: "y2";                      to: "group2Successes"  }
+        ChangeRename { from: "n2";                      to: "group2SampleSize"  }
+        ChangeRename { from: "normal_mu";               to: "normal_mean"  }
+        ChangeRename { from: "normal_sigma";            to: "normal_sd"  }
+        ChangeRename { from: "plotRobustness";          to: "plotBayesFactorRobustness"  }
+        ChangeRename { from: "orEqualTo1Prob";          to: "logOddsRatioEqualTo0"  }
+        ChangeRename { from: "orGreaterThan1Prob";      to: "logOddsRatioGreaterThan0"  }
+        ChangeRename { from: "orLessThan1Prob";         to: "logOddsRatioLessThan0"  }
+        ChangeRename { from: "orNotEqualTo1Prob";       to: "logOddsRatioNotEqualTo0"  }
+        ChangeRename { from: "numSamples";              to: "samples"  }
+        ChangeRename { from: "mu_stepsize";             to: "meanStepsize"  }
+        ChangeRename { from: "sigma_stepsize";          to: "sdStepsize"  }
+        ChangeRename { from: "mu_stepsize_lower";       to: "meanStepsizeLower"  }
+        ChangeRename { from: "mu_stepsize_upper";       to: "meanStepsizeUpper"  }
+        ChangeRename { from: "sigma_stepsize_lower";   to: "sdStepsizeLower"  }
+        ChangeRename { from: "sigma_stepsize_upper";   to: "sdStepsizeUpper"  }
 
 
     }
