@@ -51,7 +51,7 @@ Form
 		{
 			title	: qsTr("Normal Prior on Log Odds Ratio")
 
-			DoubleField { label: qsTr("\u03bc:"); name: "normal_mu";		defaultValue: 0;	negativeValues: true}
+			DoubleField { label: qsTr("\u03bc:"); name: "normal_mean";		defaultValue: 0;	negativeValues: true}
 			DoubleField { label: qsTr("\u03c3:"); name: "normal_sigma";	defaultValue: 1 }
 		}
 
