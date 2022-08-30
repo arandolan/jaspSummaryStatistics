@@ -49,8 +49,8 @@ Upgrade
         ChangeRename { from: "n1";                      to: "group1SampleSize"  }
         ChangeRename { from: "y2";                      to: "group2Successes"  }
         ChangeRename { from: "n2";                      to: "group2SampleSize"  }
-        ChangeRename { from: "normal_mu";               to: "normal_mean"  }
-        ChangeRename { from: "normal_sigma";            to: "normal_sd"  }
+        ChangeRename { from: "normal_mu";               to: "normalMean"  }
+        ChangeRename { from: "normal_sigma";            to: "normalSd"  }
         ChangeRename { from: "plotRobustness";          to: "plotBayesFactorRobustness"  }
         ChangeRename { from: "orEqualTo1Prob";          to: "logOddsRatioEqualTo0"  }
         ChangeRename { from: "orGreaterThan1Prob";      to: "logOddsRatioGreaterThan0"  }

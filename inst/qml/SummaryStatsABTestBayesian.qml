@@ -30,14 +30,14 @@ Form
 	Group
 	{
 		title: qsTr("Group 1")
-		IntegerField { name: "group1Successes";	label: qsTr("Successes")	}
+		IntegerField { name: "group1Successes";		label: qsTr("Successes")	}
 		IntegerField { name: "group1SampleSize";	label: qsTr("Sample Size")	}
 	}
 
 	Group
 	{
 		title: qsTr("Group 2")
-		IntegerField { name: "group2Successes";	label: qsTr("Successes")	}
+		IntegerField { name: "group2Successes";		label: qsTr("Successes")	}
 		IntegerField { name: "group2SampleSize";	label: qsTr("Sample Size")	}
 	}
 
@@ -51,8 +51,8 @@ Form
 		{
 			title	: qsTr("Normal Prior on Log Odds Ratio")
 
-			DoubleField { label: qsTr("\u03bc:"); name: "normal_mean";		defaultValue: 0;	negativeValues: true}
-			DoubleField { label: qsTr("\u03c3:"); name: "normal_sd";		defaultValue: 1 }
+			DoubleField { label: qsTr("\u03bc:"); name: "normalMean";		defaultValue: 0;	negativeValues: true}
+			DoubleField { label: qsTr("\u03c3:"); name: "normalSd";			defaultValue: 1 }
 		}
 
 		CheckBox
@@ -137,7 +137,7 @@ Form
 				title: qsTr("Prior Model Probability")
 				DoubleField { name: "logOddsRatioEqualTo0";		label: qsTr("Log odds ratio = 0"); defaultValue: 0.5;  max: 1; min: 0; decimals: 3 }
 				DoubleField { name: "logOddsRatioGreaterThan0";	label: qsTr("Log odds ratio > 0"); defaultValue: 0.25; max: 1; min: 0; decimals: 3 }
-				DoubleField { name: "logOddsRatioLessThan0";		label: qsTr("Log odds ratio < 0"); defaultValue: 0.25; max: 1; min: 0; decimals: 3 }
+				DoubleField { name: "logOddsRatioLessThan0";	label: qsTr("Log odds ratio < 0"); defaultValue: 0.25; max: 1; min: 0; decimals: 3 }
 				DoubleField { name: "logOddsRatioNotEqualTo0";	label: qsTr("Log odds ratio \u2260 0"); defaultValue: 0;    max: 1; min: 0; decimals: 3 }
 			}
 
