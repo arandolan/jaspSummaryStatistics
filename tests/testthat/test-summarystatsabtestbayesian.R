@@ -3,7 +3,7 @@ context("SummaryStatsABTestBayesian")
 options <- jaspTools::analysisOptions("SummaryStatsABTestBayesian")
 options$.meta <- list()
 options$descriptives <- TRUE
-options$n1 <- 25
+options$group1SampleSize <- 25
 options$n2 <- 27
 options$numSamples <- 100
 options$setSeed <- TRUE

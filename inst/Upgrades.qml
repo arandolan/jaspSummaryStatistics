@@ -46,6 +46,8 @@ Upgrade
         toVersion:			"0.16.4"
 
         ChangeRename { from: "y1";  to: "group1Successes"  }
+        ChangeRename { from: "n1";  to: "group1SampleSize"  }
+
 
     }
 
