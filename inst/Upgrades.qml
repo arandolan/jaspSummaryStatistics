@@ -51,6 +51,7 @@ Upgrade
         ChangeRename { from: "n2";  to: "group2SampleSize"  }
         ChangeRename { from: "normal_mu";  to: "normal_mean"  }
         ChangeRename { from: "normal_sigma";  to: "normal_sd"  }
+        ChangeRename { from: "plotRobustness";  to: "plotBayesFactorRobustness"  }
 
 
     }

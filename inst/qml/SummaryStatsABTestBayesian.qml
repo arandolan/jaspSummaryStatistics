@@ -103,7 +103,7 @@ Form
 
 			CheckBox
 			{
-				name				: "plotRobustness"
+				name				: "plotBayesFactorRobustness"
 				label				: qsTr("Bayes factor robustness check")
 				childrenOnSameRow	: true
 
