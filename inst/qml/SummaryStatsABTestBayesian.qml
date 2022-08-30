@@ -135,10 +135,10 @@ Form
 			Group
 			{
 				title: qsTr("Prior Model Probability")
-				DoubleField { name: "orEqualTo1Prob";		label: qsTr("Log odds ratio = 0"); defaultValue: 0.5;  max: 1; min: 0; decimals: 3 }
-				DoubleField { name: "orGreaterThan1Prob";	label: qsTr("Log odds ratio > 0"); defaultValue: 0.25; max: 1; min: 0; decimals: 3 }
-				DoubleField { name: "orLessThan1Prob";		label: qsTr("Log odds ratio < 0"); defaultValue: 0.25; max: 1; min: 0; decimals: 3 }
-				DoubleField { name: "orNotEqualTo1Prob";	label: qsTr("Log odds ratio \u2260 0"); defaultValue: 0;    max: 1; min: 0; decimals: 3 }
+				DoubleField { name: "logOddsRatioEqualTo0";		label: qsTr("Log odds ratio = 0"); defaultValue: 0.5;  max: 1; min: 0; decimals: 3 }
+				DoubleField { name: "logOddsRatioGreaterThan0";	label: qsTr("Log odds ratio > 0"); defaultValue: 0.25; max: 1; min: 0; decimals: 3 }
+				DoubleField { name: "logOddsRatioLessThan0";		label: qsTr("Log odds ratio < 0"); defaultValue: 0.25; max: 1; min: 0; decimals: 3 }
+				DoubleField { name: "logOddsRatioNotEqualTo0";	label: qsTr("Log odds ratio \u2260 0"); defaultValue: 0;    max: 1; min: 0; decimals: 3 }
 			}
 
 			Group
