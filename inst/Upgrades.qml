@@ -53,6 +53,11 @@ Upgrade
         ChangeRename { from: "normal_sigma";  to: "normal_sd"  }
         ChangeRename { from: "plotRobustness";  to: "plotBayesFactorRobustness"  }
 
+        ChangeRename { from: "orEqualTo1Prob";  to: "logOddsRatioEqualTo0"  }
+
+        ChangeRename { from: "mu_stepsize";  to: "meanStepsize"  }
+        ChangeRename { from: "sigma_stepsize";  to: "sdStepsize"  }
+
 
     }
 

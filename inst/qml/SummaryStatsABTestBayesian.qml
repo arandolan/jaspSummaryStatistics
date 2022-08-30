@@ -159,8 +159,8 @@ Form
 				Group
 				{
 					title	: qsTr("No. Steps")
-					IntegerField { label: qsTr("\u03bc:"); name: "mu_stepsize";	defaultValue: 5; min: 3 }
-					IntegerField { label: qsTr("\u03c3:"); name: "sigma_stepsize";	defaultValue: 5; min: 3 }
+					IntegerField { label: qsTr("\u03bc:"); name: "meanStepsize";	defaultValue: 5; min: 3 }
+					IntegerField { label: qsTr("\u03c3:"); name: "sdStepsize";	defaultValue: 5; min: 3 }
 				}
 
 				Group
