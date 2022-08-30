@@ -59,6 +59,8 @@ Upgrade
         ChangeRename { from: "numSamples";          to: "samples"  }
         ChangeRename { from: "mu_stepsize";         to: "meanStepsize"  }
         ChangeRename { from: "sigma_stepsize";      to: "sdStepsize"  }
+        ChangeRename { from: "mu_stepsize_lower";   to: "meanStepsizeLower"  }
+        ChangeRename { from: "mu_stepsize_upper";   to: "meanStepsizeUpper"  }
 
 
     }

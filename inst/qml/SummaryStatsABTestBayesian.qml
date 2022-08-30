@@ -173,7 +173,7 @@ Form
 					{
 						id				: muLower
 						label			: qsTr("lower:")
-						name			: "mu_stepsize_lower"
+						name			: "meanStepsizeLower"
 						defaultValue	: plotRobustnessBFType.currentText == "BF+0" ? 0 : -0.5
 						max				: muUpper.value
 						negativeValues	: true
@@ -184,7 +184,7 @@ Form
 					{
 						id				: muUpper
 						label			: qsTr("upper:")
-						name			: "mu_stepsize_upper"
+						name			: "meanStepsizeUpper"
 						defaultValue	: plotRobustnessBFType.currentText == "BF-0" ? 0 : 0.5
 						min				: muLower.value
 						negativeValues	: true
