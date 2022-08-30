@@ -18,11 +18,11 @@
 
 SummaryStatsABTestBayesian <- function(jaspResults, dataset = NULL, options) {
   
-  ready <- options$group1SampleSize != 0 && options$n2 != 0
+  ready <- options$group1SampleSize != 0 && options$group2SampleSize != 0
   
   ### READ DATA                ###
   if (ready)
-    dataset <- list(y1 = options$group1Successes, n1 = options$group1SampleSize, y2 = options$group2Successes, n2 = options$n2)
+    dataset <- list(y1 = options$group1Successes, n1 = options$group1SampleSize, y2 = options$group2Successes, n2 = options$group2SampleSize)
   
   jaspFrequencies::.abTestMain(jaspResults, dataset, options, ready)
 }

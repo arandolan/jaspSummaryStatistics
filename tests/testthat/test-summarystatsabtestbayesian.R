@@ -4,7 +4,7 @@ options <- jaspTools::analysisOptions("SummaryStatsABTestBayesian")
 options$.meta <- list()
 options$descriptives <- TRUE
 options$group1SampleSize <- 25
-options$n2 <- 27
+options$group2SampleSize <- 27
 options$numSamples <- 100
 options$setSeed <- TRUE
 options$group1Successes <- 5

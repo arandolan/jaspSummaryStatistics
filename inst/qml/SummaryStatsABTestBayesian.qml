@@ -38,7 +38,7 @@ Form
 	{
 		title: qsTr("Group 2")
 		IntegerField { name: "group2Successes";	label: qsTr("Successes")	}
-		IntegerField { name: "n2";	label: qsTr("Sample Size")	}
+		IntegerField { name: "group2SampleSize";	label: qsTr("Sample Size")	}
 	}
 
 	Divider { }

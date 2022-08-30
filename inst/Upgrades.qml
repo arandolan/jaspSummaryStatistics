@@ -48,7 +48,7 @@ Upgrade
         ChangeRename { from: "y1";  to: "group1Successes"  }
         ChangeRename { from: "n1";  to: "group1SampleSize"  }
         ChangeRename { from: "y2";  to: "group2Successes"  }
-        ChangeRename { from: "n1";  to: "group1SampleSize"  }
+        ChangeRename { from: "n2";  to: "group2SampleSize"  }
 
 
     }
