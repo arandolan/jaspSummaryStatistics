@@ -5,7 +5,7 @@ options$.meta <- list()
 options$descriptives <- TRUE
 options$group1SampleSize <- 25
 options$group2SampleSize <- 27
-options$numSamples <- 100
+options$samples <- 100
 options$setSeed <- TRUE
 options$group1Successes <- 5
 options$group2Successes <- 10

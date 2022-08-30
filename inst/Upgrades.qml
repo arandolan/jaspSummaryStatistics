@@ -56,7 +56,7 @@ Upgrade
         ChangeRename { from: "orGreaterThan1Prob";  to: "logOddsRatioGreaterThan0"  }
         ChangeRename { from: "orLessThan1Prob";     to: "logOddsRatioLessThan0"  }
         ChangeRename { from: "orNotEqualTo1Prob";   to: "logOddsRatioNotEqualTo0"  }
-
+        ChangeRename { from: "numSamples";          to: "samples"  }
         ChangeRename { from: "mu_stepsize";         to: "meanStepsize"  }
         ChangeRename { from: "sigma_stepsize";      to: "sdStepsize"  }
 

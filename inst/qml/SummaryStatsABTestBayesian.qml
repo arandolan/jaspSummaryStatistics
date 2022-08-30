@@ -144,7 +144,7 @@ Form
 			Group
 			{
 				title: qsTr("Sampling")
-				IntegerField { name: "numSamples"; label: qsTr("No. samples"); defaultValue: 10000; min: 100; fieldWidth: 50; }
+				IntegerField { name: "samples"; label: qsTr("No. samples"); defaultValue: 10000; min: 100; fieldWidth: 50; }
 			}
 
 			SetSeed {}
