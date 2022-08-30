@@ -50,6 +50,7 @@ Upgrade
         ChangeRename { from: "y2";  to: "group2Successes"  }
         ChangeRename { from: "n2";  to: "group2SampleSize"  }
         ChangeRename { from: "normal_mu";  to: "normal_mean"  }
+        ChangeRename { from: "normal_sigma";  to: "normal_sd"  }
 
 
     }
