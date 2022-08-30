@@ -30,7 +30,7 @@ Form
 	Group
 	{
 		title: qsTr("Group 1")
-		IntegerField { name: "y1";	label: qsTr("Successes")	}
+		IntegerField { name: "group1Successes";	label: qsTr("Successes")	}
 		IntegerField { name: "n1";	label: qsTr("Sample Size")	}
 	}
 

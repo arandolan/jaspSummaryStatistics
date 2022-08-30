@@ -38,4 +38,16 @@ Upgrades
         // Prior
         ChangeRename { from: "kappa";									to: "priorWidth"							}
     }
+
+Upgrade
+    {
+        functionName:		"SummaryStatsABTestBayesian"
+        fromVersion:		"0.16.3"
+        toVersion:			"0.16.4"
+
+        ChangeRename { from: "y1";  to: "group1Successes"  }
+
+    }
+
+
 }
